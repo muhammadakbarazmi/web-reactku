@@ -1,12 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-// import App from './App';
+import 'bootstrap/dist/css/bootstrap.min.css'; 
+import App from './App';
+//import BlogPost from './container/BlogPost/BlogPost';
 import reportWebVitals from './reportWebVitals';
+import BlogPostMahasiswa from './container/BlogPost/BlogPostMahasiswa';
 
-import Test from './Test';
-import HelloComponent from './component/HelloComponent';
+//import HelloComponent from './component/HelloComponent';
 
+//import Test from './Test';
 // function HelloComponent(){
 //   return <p>HelloComponent</p>
 // }
@@ -18,14 +21,13 @@ import HelloComponent from './component/HelloComponent';
 // }
 
 // ReactDOM.render(<HelloComponent />, document.getElementById('root'));
-class StateFullComponent extends React.Component { 
-  render() { 
-    return <p>StateFullComponent</p> }
-  }
+//class StateFullComponent extends React.Component { 
+//  render() { 
+//    return <p>StateFullComponent</p> }
+//  }
 
-ReactDOM.render(
-  <HelloComponent />, document.getElementById('root')
-);
+//ReactDOM.render(<BlogPost />, document.getElementById('content'));
+ReactDOM.render(<BlogPostMahasiswa />, document.getElementById('content'));
 
 //ReactDOM.render(<App />, document.getElementById('root'));
 

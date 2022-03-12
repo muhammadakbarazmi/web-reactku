@@ -1,0 +1,29 @@
+{
+  "mahasiswa": [
+    {
+      "NIM": 180823453,
+      "nama": "Mahasiswa 1",
+      "alamat": "Jl. Soekarno Hatta No. 9 Malang",
+      "hp": "081802023249",
+      "angkatan": 2018,
+      "status": "aktif"
+    },
+    {
+      "NIM": 140823453,
+      "nama": "Mahasiswa X",
+      "alamat": "Jl. Menur No. 9 Surabaya",
+      "hp": "081802023523",
+      "angkatan": 2014,
+      "status": "lulus"
+    },
+    {
+      "id": 1647075348379,
+      "nim": "19417200874",
+      "nama": "Muhammad Akbar Azmi",
+      "alamat": "Jalan Pangeran Hidayatullah Kabupaten Ponorogo",
+      "hp": "082335239329",
+      "angkatan": "2019",
+      "status": "Mahasiswa/Pelajar"
+    }
+  ]
+}
